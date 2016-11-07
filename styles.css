@@ -1,5 +1,8 @@
 table {
-  border-collapse: collapse
+  border-collapse: collapse;
+  background-color: #f5f5dc;
+  width: 600px;
+  margin: auto;
 }
 
 td, th{
@@ -11,4 +14,32 @@ th {
   font-weight: bold;
   font-family: sans-serif;
   font-size: 25px;
+}
+
+#first {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.poem {
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+}
+
+.poem::first-letter{
+  font-weight: bold;
+}
+
+#third {
+  text-align: center;
+}
+
+div {
+  border-radius: 5px;
+  padding-top: 10px;
+  width: 800px;
+  height: 460px;
+  background-color: #e2ac7f;
 }
