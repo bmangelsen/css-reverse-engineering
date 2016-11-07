@@ -1,45 +1,59 @@
 table {
   border-collapse: collapse;
   background-color: #f5f5dc;
-  width: 600px;
+  width: 572px;
+  height: 446px;
   margin: auto;
 }
 
-td, th{
-  border: 5px dotted;
+table, th{
+  border: 4px dotted;
 }
 
 th {
   font-style: italic;
-  font-weight: bold;
-  font-family: sans-serif;
-  font-size: 25px;
+  font-family: Impact;
+  font-size: 30px;
+  padding: 0;
+  height: 36px;
 }
 
-#first {
+td:first-child {
+  padding-left: 18px;
+  padding-right: 18px;
   padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  text-align: justify;
+  font-size: 11px;
+  font-family: verdana;
 }
 
 .poem {
   text-align: center;
   font-style: italic;
   margin: 0;
+  font-size: 15.49px;
+  font-family: "Avenir";
 }
 
 .poem::first-letter{
   font-weight: bold;
 }
 
-#third {
+#last {
+  padding-top: 2px;
+  font-family: verdana;
+  font-size: 10px;
   text-align: center;
 }
 
 div {
   border-radius: 5px;
-  padding-top: 10px;
-  width: 800px;
-  height: 460px;
+  padding-top: 5px;
+  width: 1024px;
+  height: 454px;
   background-color: #e2ac7f;
+}
+
+a {
+  color: blue;
 }
